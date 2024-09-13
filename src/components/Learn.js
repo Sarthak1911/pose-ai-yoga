@@ -53,10 +53,10 @@ const Learn = () => {
   return (
     <div className="container">
       <h1 className="my-0">Learn</h1>
-      <div className="row">
+      <div className="row my-3">
         {videos.map((video) => (
           <div className="col-md-4" key={video.id}>
-            <div className="card mb-4">
+            <div className="card mb-4 my-5">
               <img
                 src={video.thumbnail}
                 className="card-img-top"

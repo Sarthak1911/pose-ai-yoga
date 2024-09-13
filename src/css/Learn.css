@@ -9,9 +9,9 @@
 
 .card {
     width: 300px;
-    height:auto;
+    height: 300px;
     border: none;
-    background-color: rgb(237, 237, 237);
+    box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.2), 0 6px 20px 0 rgba(121, 121, 121, 0.19);
 }
 
 .card img{
