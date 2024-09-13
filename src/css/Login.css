@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.container h3{
+  font-weight: 600;
+}
+.container button{
+  width: 100%;
+}
+
+.cond{
+  font-weight: 500;
+}

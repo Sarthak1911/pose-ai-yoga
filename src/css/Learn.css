@@ -1,0 +1,30 @@
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-header .btn-close {
+    margin-left: 85%;
+}
+
+.card {
+    width: 300px;
+    height:auto;
+    border: none;
+    background-color: rgb(237, 237, 237);
+}
+
+.card img{
+    height: 300px;
+    max-height: 200px;
+    border-radius: 10px;
+}
+.card-img-top {
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.04);
+    object-fit: cover;
+  }

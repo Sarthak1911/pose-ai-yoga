@@ -1,0 +1,22 @@
+.hcard img{
+    align-self: center;
+    max-height: 450px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+}
+
+.hcard{
+    width: 500px;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+.hcards{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
