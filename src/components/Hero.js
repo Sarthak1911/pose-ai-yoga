@@ -1,6 +1,8 @@
 import React from 'react'
 import "../css/Hero.css"
 import { Link } from 'react-router-dom'
+import learn from "../assets/learn.jpg";
+import practice from "../assets/practice.jpg";
 const Hero = () => {
     return (
         <div>
@@ -10,7 +12,7 @@ const Hero = () => {
             </div>
             <div className="hcards">
                 <div class="hcard shadow-lg p-4">
-                    <img src="https://images.playground.com/eee32ab91525411cb9dc9892e4294187.jpeg" class="hcard-img-top" alt="..."/>
+                    <img src={learn} class="hcard-img-top" alt="..."/>
                         <div class="hcard-body">
                             <h5 class="hcard-title">Learn</h5>
                             <p class="hcard-text">Some quick example text to build on the hcard title and make up the bulk of the hcard's content.</p>
@@ -18,7 +20,7 @@ const Hero = () => {
                         </div>
                 </div>
                 <div class="hcard hcard shadow-lg p-4">
-                    <img src="https://cdn.outsideonline.com/wp-content/uploads/2015/08/12/yoga-for-athletes_s.jpg" class="hcard-img-top" alt="..."/>
+                    <img src ={practice}  class="hcard-img-top" alt="..."/>
                         <div class="hcard-body">
                             <h5 class="hcard-title">Practice</h5>
                             <p class="hcard-text">Some quick example text to build on the hcard title and make up the bulk of the hcard's content.</p>
