@@ -16,7 +16,7 @@ const Hero = () => {
                         <div class="hcard-body">
                             <h5 class="hcard-title">Learn</h5>
                             <p class="hcard-text">Some quick example text to build on the hcard title and make up the bulk of the hcard's content.</p>
-                            <Link href="#" to="/hero/learn" class="btn btn-primary">Go somewhere</Link>
+                            <Link href="#" to="/hero/learn" class="btn btn-dark">Go somewhere</Link>
                         </div>
                 </div>
                 <div class="hcard hcard shadow-lg p-4">
@@ -24,7 +24,7 @@ const Hero = () => {
                         <div class="hcard-body">
                             <h5 class="hcard-title">Practice</h5>
                             <p class="hcard-text">Some quick example text to build on the hcard title and make up the bulk of the hcard's content.</p>
-                            <Link href="#" to="/hero/practice" class="btn btn-primary">Go somewhere</Link>
+                            <Link href="#" to="/hero/practice" class="btn btn-dark">Go somewhere</Link>
                         </div>
                 </div>
             </div>
