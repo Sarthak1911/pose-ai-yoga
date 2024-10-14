@@ -12,6 +12,7 @@ import Signup from "./components/Signup";
 import Hero from "./components/Hero";
 import Learn from "./components/Learn";
 import Practice from "./components/Practice";
+import Practicelist from "./components/Practicelist";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/signup" element = {<Signup />}/>
           <Route path="/hero" element = {<Hero />}/>
           <Route path="/hero/learn" element = {<Learn />}/>
+          <Route path="/hero/practicelist" element = {<Practicelist />}/>
           <Route path="/hero/practice" element = {<Practice />}/>
         </Routes>
       </Router>
